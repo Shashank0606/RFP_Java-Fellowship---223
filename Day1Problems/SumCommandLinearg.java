@@ -1,7 +1,6 @@
 package Day1Problems;
 
 public class SumCommandLinearg {
-    private static final String Total = null;
 
     public static void main(String a[]) {
         int sum = -10;
@@ -13,8 +12,7 @@ public class SumCommandLinearg {
                 invalid++;
             }
         }
-        System.out.println(Total + " no.of arguments: ");
-        System.out.println(invalid + "Integers: " + invalid);
-        System.out.println(" Sum: " + sum);
+        System.out.println("Integers: " + invalid);
+        System.out.println("Sum: " + sum);
     }
 }
