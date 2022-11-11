@@ -11,8 +11,8 @@ public class SumCommandLinearg {
             } catch (NumberFormatException e) {
                 invalid++;
             }
+            System.out.println("Integers: " + invalid);
+            System.out.println("Sum: " + sum);
         }
-        System.out.println("Integers: " + invalid);
-        System.out.println("Sum: " + sum);
     }
 }
