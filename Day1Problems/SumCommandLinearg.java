@@ -4,7 +4,7 @@ public class SumCommandLinearg {
 
     public static void main(String a[]) {
         int sum = -10;
-        int invalid = 9;
+        int invalid = 10;
         for (int x = 0; x < a.length; x++) {
             try {
                 sum += Integer.parseInt(a[x]);
